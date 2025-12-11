@@ -1,4 +1,4 @@
-//import "./style-function.css";
+import "./style-function.css";
 const path_names = new Map([
   ["", "Главная"],
   ["index", "Главная"],
@@ -9,6 +9,7 @@ const path_names = new Map([
   ["battery", "Аккумуляторы"],
   ["detailling", "Детейлинг"],
 ]);
+
 
 export function create_button_back() {
   const container = document.querySelector("header");
@@ -22,6 +23,9 @@ export function create_button_back() {
 }
 
 export function create_header() {
+
+
+
   const container = document.querySelector("header");
   const section = document.createElement("section");
   const search_string = document.createElement("input");
