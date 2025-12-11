@@ -1,4 +1,4 @@
-import "./style-function.css";
+
 const path_names = new Map([
   ["", "Главная"],
   ["index", "Главная"],
