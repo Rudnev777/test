@@ -32,9 +32,9 @@ export function create_header() {
   const btn_img_search = document.createElement("img");
   const btn_img_login_to_account = document.createElement("img");
   btn_img_login_to_account.alt = "👤";
-  btn_img_login_to_account.src = "../public/people.png";
+  btn_img_login_to_account.src = "public/people.png";
   btn_img_search.alt = "🔍";
-  btn_img_search.src = "../public/search.png";
+  btn_img_search.src = "public/search.png";
   btn_img_search.classList.add("button-img-header", "button-search");
   btn_img_login_to_account.classList.add("button-img-header");
   search_string.classList.add("search-string");
